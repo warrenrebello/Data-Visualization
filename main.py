@@ -24,8 +24,8 @@ def stateInfo(state):
     state_data = data.stateData()
     length = len(state_data)
     file_name = state_name + ".png"
-    file_path = "ITVedant/Assignments/01 - Python/Week 10/Data Visualization/static/"
-    # file_path = "static/"
+    # file_path = "ITVedant/Assignments/01 - Python/Week 10/Data Visualization/static/"
+    file_path = "static/"
     try:
         os.remove(file_path + file_name)
     except:
