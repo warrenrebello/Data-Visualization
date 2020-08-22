@@ -75,7 +75,8 @@ class TimeSeries():
         daily.legend(labels=["Confirmed","Deaths","Recovered"])
         total.legend(labels=["Confirmed","Deaths","Recovered"])
 
-        file_path = "ITVedant/Assignments/01 - Python/Week 10/Data Visualization/static/"
+        # file_path = "ITVedant/Assignments/01 - Python/Week 10/Data Visualization/static/"
+        file_path = "static/"
         
         plt.savefig(file_path + "covid.png")
     
