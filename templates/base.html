@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta Http-Equiv="Cache-Control" Content="no-cache">
+    <meta Http-Equiv="Pragma" Content="no-cache">
+    <meta Http-Equiv="Expires" Content="0">
+    <meta Http-Equiv="Pragma-directive: no-cache">
+    <meta Http-Equiv="Cache-directive: no-cache">
+    <link rel="stylesheet" href= "{{ url_for('static',filename='main.css') }}">
+    <h1 style="font-family:'Courier New', Courier, monospace; font-variant: small-caps; text-align: center;">COVID-19 India</h1>
+    <hr>
+    {% block head %}  {% endblock %}
+</head>
+<body>
+    {% block body %}  {% endblock %}
+</body>
+</html>

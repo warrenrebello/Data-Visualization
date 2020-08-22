@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block body %}
+<body>
+    <p style="text-align: center; font-size: xx-large;">{{state_name}}</p>
+    <img src="{{url_for('static', filename=file_name)}}" style="width: 60%; height: 60%; margin-left: auto; margin-right: auto; display: block;" />
+    <p style="text-align: center;"><a href="/">Go Back</a></p>
+
+</body>
+{% endblock %}
